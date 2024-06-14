@@ -13,5 +13,5 @@ class carModel(models.Model):
     horsepower = models.IntegerField()
 
     def __str__(self):
-        return f"{self.brand.name} {self.name}"
+        return f"{self.brand.name} {self.name} {self.year}"
     
